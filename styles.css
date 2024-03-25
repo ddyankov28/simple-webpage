@@ -172,24 +172,31 @@ li{
 
 .sign-up-ad{
     background-color: #3882F6;
+    border-radius: 10px;
     margin: 100px 200px;
+    padding: 50px;
     display: flex;
-    padding: 100px 100px;
-}
-
-.sign-text{
-    flex: 5;
     color: white;
-    border: solid red 3px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
-.sign-up-ad .signup{
-    flex: 1;
-    color: #E5E7EB;
+.sign-up-ad .signup-text{
+    padding: 30px;
+}
+
+.sign-up-ad > button{
+    border: solid white 2px;
     background-color: #3882F6;
+    color: white;
     font-size: 15px;
     border-radius: 10px;
+    align-self: center;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px 30px
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
